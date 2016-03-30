@@ -121,19 +121,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     CMSettingsProvider \
-    CMUpdater \
-    LineageSetupWizard \
-    Eleven \
-    ExactCalculator \
     LiveLockScreenService \
-    LockClock \
     Trebuchet \
     WallpaperPicker \
     WeatherProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
