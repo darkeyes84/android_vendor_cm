@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libemoji \
     LiveWallpapersPicker \
-    PhotoTable \
     Terminal
 
 # Include explicitly to work around GMS issues
@@ -122,8 +121,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMSettingsProvider \
     LiveLockScreenService \
-    Trebuchet \
-    WallpaperPicker \
     WeatherProvider
 
 # Extra tools in CM
