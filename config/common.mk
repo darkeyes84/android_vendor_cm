@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
 # Optional CM packages
 PRODUCT_PACKAGES += \
     libemoji \
+    LiveWallpapersPicker \
     Terminal
 
 # Include explicitly to work around GMS issues
