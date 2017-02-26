@@ -65,6 +65,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
+# CM Weather Provider
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/YahooWeatherProvider.apk:system/app/YahooWeatherProvider/YahooWeatherProvider.apk
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
@@ -148,6 +152,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMSettingsProvider \
     LiveLockScreenService \
+    LockClock \
     WeatherProvider
 
 # Extra tools in CM
