@@ -123,9 +123,10 @@ ifneq ($(TARGET_DISABLE_CMSDK), true)
 include vendor/cm/config/cmsdk_common.mk
 endif
 
-# OpenDelta
+# OmniROM
 PRODUCT_PACKAGES += \
-    OpenDelta
+    OpenDelta \
+    OmniStyle
 
 # Required CM packages
 PRODUCT_PACKAGES += \
