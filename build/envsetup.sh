@@ -81,7 +81,7 @@ function eat()
 {
     if [ "$OUT" ] ; then
         MODVERSION=$(get_build_var LINEAGE_VERSION)
-        ZIPFILE=cm-$MODVERSION.zip
+        ZIPFILE=darkrom-$MODVERSION.zip
         ZIPPATH=$OUT/$ZIPFILE
         if [ ! -f $ZIPPATH ] ; then
             echo "Nothing to eat"
