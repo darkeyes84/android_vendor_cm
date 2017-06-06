@@ -69,6 +69,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/YahooWeatherProvider.apk:system/app/YahooWeatherProvider/YahooWeatherProvider.apk
 
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/Turbo.apk:system/priv-app/Turbo/Turbo.apk
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
