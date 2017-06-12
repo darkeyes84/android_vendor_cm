@@ -65,10 +65,6 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
-# CM Weather Provider
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/YahooWeatherProvider.apk:system/app/YahooWeatherProvider/YahooWeatherProvider.apk
-
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/Turbo.apk:system/priv-app/Turbo/Turbo.apk
 
